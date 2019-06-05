@@ -37,3 +37,4 @@ setopt hist_ignore_dups       # ignore duplicated commands history list
 setopt hist_ignore_space      # ignore commands that start with space
 setopt hist_verify            # show command with history expansion to user before running it
 setopt share_history          # share command history data
+setopt HIST_IGNORE_ALL_DUPS   # If a new command line being added to the history list duplicates an older one, the older command is removed from the list (even if it is not the previous event).
