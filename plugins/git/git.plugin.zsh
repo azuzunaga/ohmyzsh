@@ -43,7 +43,8 @@ function git_main_branch() {
 # (sorted alphabetically)
 #
 
-alias g='git'
+# comment out because local function g already does this
+# alias g='git'
 
 alias ga='git add'
 alias gaa='git add --all'
